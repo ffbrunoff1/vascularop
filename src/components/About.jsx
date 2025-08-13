@@ -125,12 +125,12 @@ export default function About() {
           >
             <div className="bg-white rounded-3xl p-8 shadow-xl">
               <div className="flex items-center mb-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mr-4">
+                <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mr-4">
                   <Target className="h-8 w-8 text-white" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900">Nossa Missão</h3>
-                  <p className="text-blue-600 font-medium">Salvando vidas com excelência</p>
+                  <p className="text-red-600 font-medium">Salvando vidas com excelência</p>
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed">

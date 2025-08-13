@@ -50,7 +50,7 @@ export default function Hero() {
                 <br />
                 <span className="text-gray-900">com</span>
                 <br />
-                <span className="text-blue-600">Precisão</span>
+                <span className="text-red-600">Precisão</span>
               </motion.h1>
               
               <motion.p 
@@ -121,7 +121,7 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <div className="relative bg-gradient-to-br from-blue-500 to-blue-700 rounded-3xl p-8 shadow-2xl">
+            <div className="relative bg-gradient-to-br from-red-500 to-red-700 rounded-3xl p-8 shadow-2xl">
               {/* Medical Icon Display */}
               <div className="grid grid-cols-2 gap-8 mb-8">
                 <motion.div 

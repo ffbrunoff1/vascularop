@@ -33,7 +33,7 @@ export default function Footer() {
   ]
 
   return (
-    <footer className="bg-gradient-to-br from-gray-900 to-blue-900 text-white relative overflow-hidden">
+    <footer className="bg-gradient-to-br from-gray-900 to-red-900 text-white relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-pattern opacity-5"></div>
       
@@ -54,14 +54,14 @@ export default function Footer() {
               viewport={{ once: true }}
             >
               <div className="flex items-center space-x-3 mb-6">
-                <div className="p-2 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                <div className="p-2 rounded-xl bg-gradient-to-br from-red-500 to-red-600 shadow-lg">
                   <Heart className="h-8 w-8 text-white heart-pulse" />
                 </div>
                 <div className="flex flex-col">
                   <span className="text-2xl font-bold text-white">
-                    Vascular<span className="text-blue-400">Op</span>
+                    Vascular<span className="text-red-400">Op</span>
                   </span>
-                  <span className="text-sm font-medium text-blue-300">
+                  <span className="text-sm font-medium text-red-300">
                     Operações do Coração
                   </span>
                 </div>

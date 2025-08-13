@@ -39,11 +39,11 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-300;
+    @apply bg-gradient-to-r from-red-600 to-red-700 text-white px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-red-300;
   }
 
   .btn-secondary {
-    @apply bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-xl font-semibold shadow-lg hover:bg-blue-600 hover:text-white transform hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-300;
+    @apply bg-white text-red-600 border-2 border-red-600 px-8 py-4 rounded-xl font-semibold shadow-lg hover:bg-red-600 hover:text-white transform hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-red-300;
   }
 
   .btn-accent {
@@ -55,7 +55,7 @@ body {
   }
 
   .text-gradient {
-    @apply bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-red-600 to-orange-500 bg-clip-text text-transparent;
   }
 
   .section-padding {
@@ -83,7 +83,7 @@ body {
   .bg-pattern {
     background-image: radial-gradient(
       circle at 2px 2px,
-      rgba(59, 130, 246, 0.1) 1px,
+      rgba(239, 68, 68, 0.1) 1px,
       transparent 0
     );
     background-size: 40px 40px;
@@ -99,16 +99,16 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #3b82f6, #1d4ed8);
+  background: linear-gradient(to bottom, #ef4444, #b91c1c);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #2563eb, #1e40af);
+  background: linear-gradient(to bottom, #dc2626, #991b1b);
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

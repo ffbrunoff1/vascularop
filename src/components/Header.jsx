@@ -48,7 +48,7 @@ export default function Header() {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           >
-            <div className={`p-2 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 ${
+            <div className={`p-2 rounded-xl bg-gradient-to-br from-red-500 to-red-600 ${
               isScrolled ? 'shadow-md' : 'shadow-lg'
             }`}>
               <Heart className="h-8 w-8 text-white heart-pulse" />
@@ -57,7 +57,7 @@ export default function Header() {
               <span className={`text-2xl font-bold transition-colors duration-300 ${
                 isScrolled ? 'text-gray-900' : 'text-gray-900'
               }`}>
-                Vascular<span className="text-blue-600">Op</span>
+                Vascular<span className="text-red-600">Op</span>
               </span>
               <span className={`text-xs font-medium transition-colors duration-300 ${
                 isScrolled ? 'text-gray-600' : 'text-gray-700'
@@ -75,8 +75,8 @@ export default function Header() {
                 onClick={() => scrollToSection(item.id)}
                 className={`font-medium transition-all duration-300 hover:scale-105 ${
                   isScrolled 
-                    ? 'text-gray-700 hover:text-blue-600' 
-                    : 'text-gray-800 hover:text-blue-600'
+                    ? 'text-gray-700 hover:text-red-600' 
+                    : 'text-gray-800 hover:text-red-600'
                 }`}
                 whileHover={{ y: -2 }}
                 initial={{ opacity: 0, y: -20 }}
